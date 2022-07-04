@@ -1,0 +1,12 @@
+{
+	"firstName":"John",
+	"lastName":"Terry",
+	"invalidEmail":"afc@ss@.&%",
+	"existingEmail":"automation@gmail.com",
+	"notFoundEmail":"automation@gmail.com",
+	"password":"John111@@@",
+	"ContactDetail":{
+		"editFirstName":"Thierry",
+		"editLastName":"Henry"
+	}
+} 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SauceLab">
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.reportNGListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+<!-- 		<listener class-name="org.uncommons.reportng.ExtentTestListener" /> -->
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<parameter name="url" value="https://www.saucedemo.com" />
+
+	<test name="Run on CHROME">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.saucelab.sort.Level_20_Sort" />
+		</classes>
+	</test>
+
+</suite>

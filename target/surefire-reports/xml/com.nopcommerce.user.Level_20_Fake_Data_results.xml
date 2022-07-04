@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on CHROME"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.100">
+  <properties />
+  
+  
+            <testcase name="Login_02_Invalid_Email" time="0.914" classname="com.nopcommerce.user.Level_20_Fake_Data" />
+                <testcase name="Login_06_Valid_Email_Password" time="2.351" classname="com.nopcommerce.user.Level_20_Fake_Data" />
+                <testcase name="Login_04_Existing_Email_Empty_Password" time="1.369" classname="com.nopcommerce.user.Level_20_Fake_Data" />
+                <testcase name="Login_03_Email_Not_Found" time="1.216" classname="com.nopcommerce.user.Level_20_Fake_Data" />
+                <testcase name="Login_05_Existing_Email_Incorrect_Password" time="1.347" classname="com.nopcommerce.user.Level_20_Fake_Data" />
+                <testcase name="Login_01_Empty_Data" time="0.903" classname="com.nopcommerce.user.Level_20_Fake_Data" />
+      
+</testsuite>
